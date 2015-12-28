@@ -89,7 +89,18 @@
             <artifactId>lombok</artifactId>
             <version>1.16.6</version>
         </dependency>
-
+        <!-- Url rewrite -->
+        <dependency>
+            <groupId>org.tuckey</groupId>
+            <artifactId>urlrewritefilter</artifactId>
+            <version>4.0.3</version>
+        </dependency>
+        <!-- Facebook -->
+        <dependency>
+            <groupId>com.restfb</groupId>
+            <artifactId>restfb</artifactId>
+            <version>1.16.0</version>
+        </dependency>
     </dependencies>
 
     <build>

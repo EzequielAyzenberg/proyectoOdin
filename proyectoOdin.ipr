@@ -1,58 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ArtifactManager">
-    <artifact type="exploded-war" name="partidosmanager:partidosmanager exploded">
-      <root id="root">
-        <element id="javaee-facet-resources" facet="proyectoOdin/web/partidosmanager" />
-        <element id="directory" name="WEB-INF">
-          <element id="directory" name="classes">
-            <element id="module-output" name="proyectoOdin" />
-          </element>
-          <element id="directory" name="lib">
-            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/google/appengine/appengine-endpoints/1.9.25/appengine-endpoints-1.9.25.jar" />
-            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/google/appengine/appengine-api-1.0-sdk/1.9.25/appengine-api-1.0-sdk-1.9.25.jar" />
-            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/5.1.6/objectify-5.1.6.jar" />
-            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/google/guava/guava/18.0/guava-18.0.jar" />
-            <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar" />
-            <element id="file-copy" path="$MAVEN_REPOSITORY$/com/restfb/restfb/1.16.0/restfb-1.16.0.jar" />
-            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.6/lombok-1.16.6.jar" />
-            <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/jdo/jdo-api/3.1/jdo-api-3.1.jar" />
-            <element id="file-copy" path="$MAVEN_REPOSITORY$/javax/transaction/transaction-api/1.1/transaction-api-1.1.jar" />
-            <element id="file-copy" path="$MAVEN_REPOSITORY$/org/tuckey/urlrewritefilter/4.0.3/urlrewritefilter-4.0.3.jar" />
-          </element>
-        </element>
-      </root>
-    </artifact>
-    <artifact type="war" name="partidosmanager:war">
-      <output-path>$PROJECT_DIR$/target</output-path>
-      <root id="archive" name="partidosmanager-1.0-SNAPSHOT.war">
-        <element id="artifact" artifact-name="partidosmanager:war exploded" />
-      </root>
-    </artifact>
-    <artifact type="exploded-war" name="partidosmanager:war exploded">
-      <output-path>$PROJECT_DIR$/target/partidosmanager-1.0-SNAPSHOT</output-path>
-      <root id="root">
-        <element id="directory" name="WEB-INF">
-          <element id="directory" name="classes">
-            <element id="module-output" name="proyectoOdin" />
-          </element>
-          <element id="directory" name="lib">
-            <element id="library" level="project" name="Maven: com.google.appengine:appengine-api-1.0-sdk:1.9.25" />
-            <element id="library" level="project" name="Maven: com.google.appengine:appengine-endpoints:1.9.25" />
-            <element id="library" level="project" name="Maven: javax.inject:javax.inject:1" />
-            <element id="library" level="project" name="Maven: javax.jdo:jdo-api:3.1" />
-            <element id="library" level="project" name="Maven: javax.transaction:transaction-api:1.1" />
-            <element id="library" level="project" name="Maven: com.googlecode.objectify:objectify:5.1.6" />
-            <element id="library" level="project" name="Maven: com.google.guava:guava:18.0" />
-            <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.6" />
-          </element>
-        </element>
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/target/partidosmanager-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
-        </element>
-        <element id="javaee-facet-resources" facet="proyectoOdin/web/partidosmanager" />
-      </root>
-    </artifact>
     <artifact type="war" name="proyectoOdin:war">
       <output-path>$PROJECT_DIR$/target</output-path>
       <root id="archive" name="Mainboard-1.0-SNAPSHOT.war">
@@ -75,12 +23,14 @@
             <element id="library" level="project" name="Maven: com.googlecode.objectify:objectify:5.1.6" />
             <element id="library" level="project" name="Maven: com.google.guava:guava:18.0" />
             <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.6" />
+            <element id="library" level="project" name="Maven: org.tuckey:urlrewritefilter:4.0.3" />
+            <element id="library" level="project" name="Maven: com.restfb:restfb:1.16.0" />
           </element>
         </element>
         <element id="directory" name="META-INF">
           <element id="file-copy" path="$PROJECT_DIR$/target/Mainboard-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
         </element>
-        <element id="javaee-facet-resources" facet="proyectoOdin/web/partidosmanager" />
+        <element id="javaee-facet-resources" facet="proyectoOdin/web/Mainboard" />
       </root>
     </artifact>
   </component>
@@ -329,6 +279,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/objectify/objectify/5.1.6/objectify-5.1.6-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: com.restfb:restfb:1.16.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/restfb/restfb/1.16.0/restfb-1.16.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/restfb/restfb/1.16.0/restfb-1.16.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/restfb/restfb/1.16.0/restfb-1.16.0-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: javax.inject:javax.inject:1">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/javax/inject/javax.inject/1/javax.inject-1.jar!/" />
@@ -415,6 +376,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.16.6/lombok-1.16.6-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.tuckey:urlrewritefilter:4.0.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/tuckey/urlrewritefilter/4.0.3/urlrewritefilter-4.0.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/tuckey/urlrewritefilter/4.0.3/urlrewritefilter-4.0.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/tuckey/urlrewritefilter/4.0.3/urlrewritefilter-4.0.3-sources.jar!/" />
       </SOURCES>
     </library>
   </component>

@@ -1,7 +1,17 @@
 package com.thegrid.models;
 
-/**
- * Created by bruno on 27/12/15.
- */
+import com.google.api.server.spi.config.ApiResourceProperty;
+
 public class Etiqueta {
+
+    @ApiResourceProperty(name = "nombre")
+    private String _nombre;
+
+    public Etiqueta() {
+
+    }
+
+    public Etiqueta(String nombre){
+        _nombre = nombre;
+    }
 }
